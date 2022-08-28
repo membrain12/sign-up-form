@@ -78,8 +78,20 @@ p > a {
     margin: 20px;
 }
 .top-section > .last-item {
-    margin-bottom: 10%;
-        
+    margin-bottom: 10%;   
+}
+
+.middle-section {
+    height: 30%;
+    background-color: purple;
+    /*change to whitesmoke*/
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-section > .mid-head {
+    font-size: clamp(1rem, 20px, 3rem);
+    margin: 20px;
 }
 
 
