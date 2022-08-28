@@ -27,7 +27,8 @@ body, html {
 }
 
 #icon-label {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
+    font-size: 30px;
 }
 
 div, #left-side > #source-pic {
@@ -41,11 +42,12 @@ div, #left-side > #source-pic {
 div, #left-side > #icon-label {
     background-color: rgba(0, 0, 0, 0.6);
     margin-top: 40%;
-    height: 50px;
+    height: 60px;
     font-size: clamp(1rem, 50px, 3rem);
     text-align: center;
     display: flex;
     justify-content: center;
+    font-family: "Sofia";
 
 }
 
