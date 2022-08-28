@@ -21,11 +21,13 @@ body, html {
 }
 #icon-label > object {
     height: 100%;
+    width: min-content;
+    margin: 1px;
+    padding: 0;
 }
 
-#icon-label > p {
-    margin: 0;
-    padding: 0;
+#icon-label {
+    margin-bottom: 2px;
 }
 
 div, #left-side > #source-pic {
@@ -40,6 +42,7 @@ div, #left-side > #icon-label {
     background-color: rgba(0, 0, 0, 0.6);
     margin-top: 40%;
     height: 50px;
+    font-size: clamp(1rem, 50px, 3rem);
     text-align: center;
     display: flex;
     justify-content: center;
