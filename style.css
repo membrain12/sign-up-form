@@ -83,15 +83,36 @@ p > a {
 
 .middle-section {
     height: 30%;
-    background-color: purple;
     /*change to whitesmoke*/
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .middle-section > .mid-head {
     font-size: clamp(1rem, 20px, 3rem);
-    margin: 20px;
+    height: 10%;
 }
 
+.middle-section > .form-inputs {
+    height: 90%;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+input, label {
+    border-radius: 4px;
+    width: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.f-container {
+    width: 50%;
+}
 
