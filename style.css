@@ -87,6 +87,7 @@ p > a {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    box-shadow: 0px 1px 6px grey;
 }
 
 .middle-section > .mid-head {
