@@ -108,7 +108,7 @@ form {
 
 input, label {
     border-radius: 4px;
-    width: 200px;
+    width: clamp(20%, 200px, 300px);
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -118,4 +118,21 @@ input, label {
     width: 50%;
     margin-top: 5px;
 }
+
+/*Box shadow seems to mess up box adding white space around border*/
+/*outline: none fixed it*/
+
+:focus {
+    border: 1.5px solid blue;
+    box-shadow: 1px 1px 1px;
+    outline: none;
+}
+
+/*waits to show red border until you've typed something in*/
+input:invalid:not(:placeholder-shown){
+    border: 1.5px solid red;
+}
+
+
+
 

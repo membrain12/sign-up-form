@@ -28,34 +28,39 @@
                 <form action="example.com/post" method="post">
                     <div class="f-container">
                         <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" required placeholder="Ringo">
                     </div>
                     <div class="f-container">
                         <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name" required placeholder="Starrfish">
                     </div>
                     
                     <div class="f-container">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email"required placeholder="FinDiesel@gmail.com">
                     </div>
                     
                     <div class="f-container">
                         <label for="phone_number">Phone Number</label>
-                        <input type="text" id="phone_number" name="phone_number">
+                        <input type="text" id="phone_number" name="phone_number" placeholder="867-5309">
                     </div>
 
                     <div class="f-container">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required minlength="7" title="Password must contain at least 7 characters." placeholder="Seas_the_day!">
                     </div>
                     
                     <div class="f-container">
                         <label for="confirm_password">Confirm Password</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
+                        <input type="password" id="confirm_password" name="confirm_password" required minlength="7" title="Password must contain at least 7 characters." placeholder="Seas_the_day!">
                     </div>
                 </form>
             </div>
+        </div>
+
+        <div class="right-bottom">
+            <button>Create Account</button>
+            <p>Already have an account?<a href="">Log In</a></p>
         </div>
         
     </div>
